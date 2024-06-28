@@ -1,0 +1,15 @@
+.filter-items {
+  width: 330px;
+  margin: 0 auto;
+  padding: 0 5px;
+  margin-bottom: 30px;
+}
+
+.filter-items input {
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+  border-radius: 0;
+  outline: none;
+  width: 320px;
+}

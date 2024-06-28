@@ -1,0 +1,31 @@
+.add-item {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 8fr 1fr;
+  width: 330px;
+  margin: 0 auto;
+  padding: 20px 5px;
+}
+
+.add-item input {
+  height: 35px;
+  padding: 5px;
+  border: 1px solid #bdbdbd;
+  border-right: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.add-item button {
+  border: 1px solid #bdbdbd;
+  cursor: pointer;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1b2845;
+}
+
+.add-item button:hover {
+  color: green;
+}

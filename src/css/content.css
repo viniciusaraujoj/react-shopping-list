@@ -1,0 +1,47 @@
+/* .content {
+  height: 50vh;
+} */
+
+.content ul {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+
+.content li {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  padding: 5px;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input-container label {
+  font-size: 1rem;
+}
+
+.input-container input {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.content li button {
+  color: #1b2845;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background: transparent;
+}
+
+.content li button:hover {
+  color: rgb(187, 47, 47);
+}
